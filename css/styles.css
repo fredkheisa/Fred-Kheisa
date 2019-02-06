@@ -13,12 +13,29 @@
         background-size:cover;
         
     }
-    .links{
-        position: absolute;
-        left: 10%;
-        top: 70%;
+    #me{
+        /* position: absolute; */
+        /* top: 0%; */
         transform: translateX(-50%) translateY(-50%);  
         list-style: none;
+        margin-bottom: -5%;
+        margin-top: -5%;
+    }
+    #skill{
+        /* position: absolute; */
+        /* top: 0%; */
+        transform: translateX(-50%) translateY(-50%);  
+        list-style: none;
+        margin-bottom: -5%;
+        margin-top: -5%;
+    }
+    #pro{
+        /* position: absolute; */
+        /* top: 0%; */
+        transform: translateX(-50%) translateY(-50%);  
+        list-style: none;
+        margin-bottom: 10%;
+        margin-top: 3%;
     }
     .logo{
         position: center;
@@ -71,10 +88,9 @@ body{
 }
 
 .links{
-    position: center;
-    left: 35%;
-    top: 55%;
-    transform: translateX(-50%) translateY(-50%);  
+    position: absolute;
+    left: 49%;
+    top: 75%;
     list-style: none;
     
 }
