@@ -37,6 +37,9 @@
 
 
 /* css styles below */
+.kys{
+    font-size: 100px;
+}
 
 body{
     margin-bottom: -10px;
@@ -68,9 +71,9 @@ body{
 }
 
 .links{
-    position: absolute;
-    left: 50%;
-    top: 70%;
+    position: center;
+    left: 35%;
+    top: 55%;
     transform: translateX(-50%) translateY(-50%);  
     list-style: none;
     
