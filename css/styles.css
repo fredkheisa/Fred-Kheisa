@@ -14,7 +14,11 @@
         
     }
     .links{
-        font-size: 40px;
+        position: absolute;
+        left: 10%;
+        top: 70%;
+        transform: translateX(-50%) translateY(-50%);  
+        list-style: none;
     }
     .logo{
         position: center;
