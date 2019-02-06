@@ -1,3 +1,39 @@
+/* media querries below */
+
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    
+    
+}
+@media screen and (min-width: 768px) {
+    body {
+        background-image:url("../img/bina.jpg");
+        background-blend-mode: overlay;
+        background-attachment: fixed;
+        background-size:cover;
+        
+    }
+    .links{
+        font-size: 40px;
+    }
+    .logo{
+        position: center;
+        left: 0px;
+        top: 20px;
+        font-size: 35px;
+    }
+  .column {
+    width: 220px;
+    float: left;
+    padding: 15px;
+  }
+}
+
+
+
+
+/* css styles below */
+
 body{
     margin-bottom: -10px;
 }
