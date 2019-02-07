@@ -1,11 +1,12 @@
 /* media querries below */
 
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 360px) and (max-width: 767px) {
 
     #skill{
         position: absolute;
-        left: 80px;
+        top: 0px;
+        left: 50%;
         bottom: 50px;
     }
     #me{
@@ -21,7 +22,8 @@
 
     }
     .row{
-        position: relative;
+        position: absolute;
+        left: 0px;
         top:100px;
         
     }
@@ -61,7 +63,7 @@
 
 /* css styles below */
 .kys{
-    font-size: 100px;
+    font-size: 110px;
 }
 
 body{
