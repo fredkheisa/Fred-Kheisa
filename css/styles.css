@@ -2,8 +2,37 @@
 
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
+
+    #skill{
+        position: absolute;
+        left: 80px;
+        bottom: 50px;
+    }
+    #me{
+        position: absolute;
+        top: 0px;
+        left: 0px; 
+    }
+
+    #pro{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+
+    }
+    .row{
+        position: relative;
+        top:100px;
+        
+    }
     
-    
+    body {
+        background-image:url("../img/bina.jpg");
+        background-blend-mode: overlay;
+        background-attachment: fixed;
+        background-size:cover;
+        
+    }
 }
 @media screen and (min-width: 768px) {
     body {
@@ -13,30 +42,7 @@
         background-size:cover;
         
     }
-    #me{
-        /* position: absolute; */
-        /* top: 0%; */
-        transform: translateX(-50%) translateY(-50%);  
-        list-style: none;
-        margin-bottom: -5%;
-        margin-top: -5%;
-    }
-    #skill{
-        /* position: absolute; */
-        /* top: 0%; */
-        transform: translateX(-50%) translateY(-50%);  
-        list-style: none;
-        margin-bottom: -2%;
-        margin-top: -5%;
-    }
-    #pro{
-        /* position: absolute; */
-        /* top: 0%; */
-        transform: translateX(-50%) translateY(-50%);  
-        list-style: none;
-        margin-bottom: 10%;
-        margin-top: 3%;
-    }
+
     .logo{
         position: center;
         left: 0px;
@@ -89,8 +95,9 @@ body{
 
 .links{
     position: absolute;
-    left: 49%;
-    top: 75%;
+    left: 50%;
+    top: 70%;
+    transform: translateX(-50%) translateY(-50%);  
     list-style: none;
     
 }
