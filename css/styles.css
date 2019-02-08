@@ -1,69 +1,15 @@
 /* media querries below */
 
 
-@media screen and (min-width: 360px) and (max-width: 767px) {
-
-    #skill{
-        position: absolute;
-        top: 0px;
-        left: 50%;
-        bottom: 50px;
-    }
-    #me{
-        position: absolute;
-        top: 0px;
-        left: 0px; 
-    }
-
-    #pro{
-        position: absolute;
-        top: 0px;
-        right: 0px;
-
-    }
-    .row{
-        position: absolute;
-        left: 0px;
-        top:100px;
-        
-    }
-    
-    body {
-        background-image:url("../img/bina.jpg");
-        background-blend-mode: overlay;
-        background-attachment: fixed;
-        background-size:cover;
-        
-    }
-}
-@media screen and (min-width: 768px) {
-    body {
-        background-image:url("../img/bina.jpg");
-        background-blend-mode: overlay;
-        background-attachment: fixed;
-        background-size:cover;
-        
-    }
-
-    .logo{
-        position: center;
-        left: 0px;
-        top: 20px;
-        font-size: 35px;
-    }
-  .column {
-    width: 220px;
-    float: left;
-    padding: 15px;
-  }
-}
-
-
-
-
 /* css styles below */
+
+blockquote{
+    position: absolute;
+    bottom: 100px;
+    left: 450px;
+}
 .kys{
-    font-size: 110px;
+    font-size: 100px;
 }
 
 body{
@@ -97,9 +43,8 @@ body{
 
 .links{
     position: absolute;
-    left: 50%;
-    top: 70%;
-    transform: translateX(-50%) translateY(-50%);  
+    left: 49%;
+    top: 75%;
     list-style: none;
     
 }
@@ -182,6 +127,9 @@ li:hover .tooltiptext1{
 ul .nav navbar-nav{
     margin-left: 100px;
 }
+li{
+
+}
 #name{
     margin-top: 50px;
     text-align: center;
@@ -190,7 +138,10 @@ hr{
     width: 50px;
 }
 #this{
+    position: absolute;
+    left: 200px;
    width: 300px;
+   height: 400px;
   
 }
 p{
@@ -198,7 +149,10 @@ p{
     font-size: 20px;
 }
 #tellme{
-    width: 80%;
+    position: absolute;
+    top: 250px;
+    left: 600px;
+    width: 40%;
     margin-top: -45px;
 }
 
@@ -254,6 +208,12 @@ img:hover{
      list-style-type: none;
      padding: 0%
  }
+ .opt{
+     display: inline-block;
+     margin: -70px;
+     margin-top: 30px;
+     transform: translate(-25% , 0%);
+ }
 
  .panel-footer{
     position: fixed;
@@ -288,7 +248,7 @@ img:hover{
     position: relative;
  }
  .navbar-brand{
-     background-color: #558795;
+     /* background-color: #558795; */
      display: block;
      margin-right: 40px;
      margin-top: 20px;
